@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-urdf" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_urdf-{{ version }}.tar.gz
-  sha256: c17c642cc2ac7156c58dcb4f1d6d24f90c1c9d51173526e58cc8249f5529c305
+  sha256: 6063cb4c9f622e490cb7590294f8b90ce6ff9e858f0b4ebfcb082a8038ef2af4
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
+    - jupyter-rospkg
 
 test:
   imports:
