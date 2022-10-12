@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-urdf" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_urdf-{{ version }}.tar.gz
-  sha256: 6063cb4c9f622e490cb7590294f8b90ce6ff9e858f0b4ebfcb082a8038ef2af4
+  sha256: 8b1a8f2f442fffcbb8a5a7d6acc686936219ec0bafc6d3205236fd77b0be390f
 
 build:
   noarch: python
