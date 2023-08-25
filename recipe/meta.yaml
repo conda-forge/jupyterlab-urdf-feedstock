@@ -20,6 +20,8 @@ requirements:
     - python >=3.9
     - hatchling
     - nodejs
+    - hatch-nodejs-version
+    - hatch-jupyter-builder
   run:
     - python >=3.9
 
