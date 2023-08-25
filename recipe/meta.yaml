@@ -16,12 +16,11 @@ build:
 
 requirements:
   host:
-    - jupyter-packaging
     - pip
-    - python >=3.7
+    - python >=3.9
+    - hatchling
   run:
-    - python >=3.7
-    - jupyter-rospkg
+    - python >=3.9
 
 test:
   imports:
