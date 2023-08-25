@@ -1,11 +1,11 @@
-About jupyterlab-urdf
-=====================
-
-Home: https://github.com/ihuicatl/jupyterlab_urdf
-
-Package license: BSD-3-Clause
+About jupyterlab-urdf-feedstock
+===============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-urdf-feedstock/blob/main/LICENSE.txt)
+
+Home: https://github.com/jupyter-robotics/jupyterlab-urdf
+
+Package license: BSD-3-Clause
 
 Summary: A URDF viewer and editor extension for JupyterLab.
 
