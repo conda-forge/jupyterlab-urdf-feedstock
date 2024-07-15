@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_urdf-{{ version }}.tar.gz
+  url: https://github.com/jupyter-robotics/{{ name }}/releases/download/v{{ version }}/{{ name|replace("-", "_") }}-0.4.0.tar.gz
   sha256: e3ed82d24d2a0c1e98077fa49b04c7f398d7bedddad95a7eff505522ac99fa8b
 
 build:
