@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/jupyter-robotics/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/jupyter-robotics/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
   sha256: b334408f15fa80ebab4ca95f5ac71072fe5d88f03f00254482c0ccc3620a5e6f
 
 build:
