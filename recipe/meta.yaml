@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-urdf" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jupyter-robotics/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b334408f15fa80ebab4ca95f5ac71072fe5d88f03f00254482c0ccc3620a5e6f
+  sha256: b18ace96af792e6b06737fcabdb7c7bbca0e73bd26322bb0a9f9a3f18e6e9c8f
 
 build:
   noarch: python
